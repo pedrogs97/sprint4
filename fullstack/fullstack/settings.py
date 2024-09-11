@@ -128,7 +128,7 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-MODEL_PATH = f"{BASE_DIR}/../best_model.pkl"
-FIT_PATH = f"{BASE_DIR}/../scaler.pkl"
-CSV_PATH = f"{BASE_DIR}/../bodyPerformance.csv"
-CSV_TEST_PATH = f"{BASE_DIR}/../bodyPerformanceTest.csv"
+MODEL_PATH = f"{BASE_DIR}/../data/best_model.pkl"
+FIT_PATH = f"{BASE_DIR}/../data/scaler.pkl"
+CSV_PATH = f"{BASE_DIR}/../data/bodyPerformance.csv"
+CSV_TEST_PATH = f"{BASE_DIR}/../data/bodyPerformanceTest.csv"
